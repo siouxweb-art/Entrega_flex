@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cinzel", serif;
+    box-sizing: border-box;
+}
+
+body{
+    
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./img/Diseño\ sin\ título\ \(40\).png);
+    background-repeat: repeat-Y;
+    background-size: cover;
+}
+h1{
+    font-size: 56px;
+    color: white;
+    letter-spacing: 1px;
+    font-optical-sizing: 90%;
+}
+h2{
+    font-size: 38px;
+    color: white;
+letter-spacing: 2px;
+font-optical-sizing: auto;
+font-weight: bold;
+}
+
+h3{
+    font-size: 32px;
+    color: white;
+letter-spacing: 2px;
+font-optical-sizing: auto;
+font-weight: bold;
+
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: white;
+letter-spacing: 2px;
+font-optical-sizing: 160%;
+
+}
+
+/*estilos cabecera*/
+
+header{
+    height: 10vh;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.img_logo{
+    width: 200px;
+    height: 75px;
+    /*background-color: yellow;*/
+}
+
+.vector{
+    width: 400px;
+    height: 75px;
+    /*background-color:brown;*/
+}
+.menu{
+    width: 30%;
+    /*background-color: green;*/
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+      
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.comprar{
+    width: 10%;
+    height: 40px;
+    background-color: #0F9BF2;
+    border: 1px solid #0F9BF2;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.comprar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* estilos main*/
+
+main{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero{
+    width: 100%;
+    display: flex;
+    
+}
+
+.primero{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+    padding-left: 5%;
+    
+    
+}
+
+.button{
+    width: 100%;
+    /*background-color: yellow;*/
+    display: flex;
+}
+
+.comprar2{
+    width: 20%;
+    height: 40px;
+    background-color: #0F9BF2;
+    border: 1px solid #0F9BF2;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.comprar2 a{
+    text-decoration: none;
+    color:black;
+}
+
+.boton_normal{
+    width: 20%;
+    height: 40px;
+    background-color: #16161A;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.boton_normal a{
+    text-decoration: none;
+    color: white;
+}
+
+.segundo{
+    width: 50%;
+    height:auto;
+    /*background-color: red;*/
+    background-image: url(./img/Diseño\ sin\ título\ \(44\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-90px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.iframe{
+    
+    margin: 50% 0% 0% 40%;
+
+}
+
+#personajes{
+    width: 100%;
+    background-color: #16161A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    
+    
+}
+.gallery{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        list-style-type: none;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .gallery > li {
+        flex-basis: 350px;
+        flex-grow: 1;
+    }
+    
+.gallery > li > h2{
+    text-align: center;
+}
+
+.gallery > li > h2 > a{
+    text-decoration: none;
+    color: white;
+}
+
+.gallery > li > h2 > a:hover{
+    color: #0F9BF2;
+    transition: 2s;
+}
+.foto{
+    width: 10%;
+    height: 250px;
+    background-color: #16161A;
+    border: 1px solid #f6f6f6;
+    
+}
+
+#juego{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    padding-bottom: 200px;
+
+}
+
+.imagenes{
+    width: 30%;
+    
+    /*background-color: red;*/
+}
+.imagenes > ul{
+    list-style: none;
+    text-align: right;
+    padding: 50px;
+}
+.text{
+width: 60%;
+/*background-color: blue;*/
+margin-left: 5%;
+background-image: url(./img/landscape.JPG);
+background-repeat: no-repeat;
+background-size: contain;
+/*background-position-x: -40px;*/
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.text h2{
+    width: 30%;
+    text-align:right;
+    padding-bottom: 50px;
+    
+}
+
+.text p{
+    width: 40%;
+    letter-spacing: 2px;
+    line-height: 40px;
+   
+}
+
+/*estilos pie de página*/
+footer{
+    height: 10vh;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    line-height: 30px;
+    
+}
+footer ul > li > a{
+    color: #ffffff;
+    text-decoration: none;
+    align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    .menu {
+      visibility: hidden;
+    }
+    .img_logo {
+      width: 150px;
+    }
+    .comprar {
+      width: 30%;
+    }
+    #hero {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .primero {
+      width: 80%;
+      align-items: center;
+    }
+    .comprar2,
+    .boton_normal {
+      width: 40%;
+    }
+    .segundo {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      align-items: center;
+    }
+    .iframe {
+      width: 300px;
+      margin: 100px 40px 40px 40px;
+    }
+    #personajes h2 {
+      text-align: center;
+    }
+    .gallery img {
+      width: 80%;
+    }
+    #juego{
+      flex-direction: column;
+    }
+    .imagenes{
+      width: 80%;
+      
+    }
+    .imagenes ul > li{
+      padding: 0;
+    }
+    .text{
+      width: 80%;
+    }
+    .text h2, .text p{
+      text-align: center;
+      width: 100%;
+    }
+    footer{
+      height: auto;
+      background-color: #16161a;
+      flex-direction: column;
+    }
+  }
